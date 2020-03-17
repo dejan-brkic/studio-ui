@@ -18,7 +18,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <#if !(envConfig.role! == 'admin' || envConfig.role! == 'developer')>
-  <script>window.location='/studio/site-dashboard'</script>
+  <script>window.location='/studio/#/sites'</script>
 </#if>
 
 <head>
